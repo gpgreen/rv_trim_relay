@@ -1,4 +1,4 @@
-update=Thu 26 Jul 2018 09:33:09 PM PDT
+update=Mon 30 Jul 2018 02:30:47 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=/home/ggreen/cad/kicad/libraries/CustomComponents
