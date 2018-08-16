@@ -61,4 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/ggreen/cad/kicad/libraries/CustomComponents
+LibName33=../libraries/CustomComponents

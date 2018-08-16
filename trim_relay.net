@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ggreen/cad/kicad/rv_trim_relay/trim_relay.sch)
-    (date "Sun 12 Aug 2018 04:02:12 PM PDT")
+    (date "Wed 15 Aug 2018 07:36:25 PM PDT")
     (tool "Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -47,7 +47,7 @@
       (tstamp 5B5AE2BC))
     (comp (ref U1)
       (value LM317L_TO92)
-      (footprint TO_SOT_Packages_THT:TO-92_Horizontal2_Inline_Narrow_Oval)
+      (footprint TO_SOT_Packages_THT:TO-220-3_Horizontal)
       (libsource (lib regul) (part LM317L_TO92))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B5AE6DC))
@@ -291,14 +291,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical regul)
-      (uri /usr/share/kicad/library/regul.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical relays)
+      (uri /usr/share/kicad/library/relays.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical relays)
-      (uri /usr/share/kicad/library/relays.lib)))
+    (library (logical regul)
+      (uri /usr/share/kicad/library/regul.lib)))
   (nets
     (net (code 1) (name VCC)
       (node (ref K2) (pin 1))
