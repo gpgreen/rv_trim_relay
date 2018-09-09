@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 1 1
 Title "RV Trim Relay"
 Date ""
-Rev ""
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -56,7 +56,7 @@ F 1 "D" H 2050 1300 50  0000 C CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2050 1400 50  0001 C CNN
 F 3 "" H 2050 1400 50  0001 C CNN
 	1    2050 1400
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2050 1250 2050 1000
@@ -82,7 +82,7 @@ F 1 "D" H 2200 3300 50  0000 C CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2200 3400 50  0001 C CNN
 F 3 "" H 2200 3400 50  0001 C CNN
 	1    2200 3400
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L D D3
@@ -93,7 +93,7 @@ F 1 "D" H 2200 4900 50  0000 C CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2200 5000 50  0001 C CNN
 F 3 "" H 2200 5000 50  0001 C CNN
 	1    2200 5000
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 Connection ~ 2200 3700
 Wire Wire Line
@@ -134,7 +134,7 @@ F 1 "D" H 6800 3250 50  0000 C CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6800 3350 50  0001 C CNN
 F 3 "" H 6800 3350 50  0001 C CNN
 	1    6800 3350
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L D D5
@@ -145,7 +145,7 @@ F 1 "D" H 6800 4850 50  0000 C CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6800 4950 50  0001 C CNN
 F 3 "" H 6800 4950 50  0001 C CNN
 	1    6800 4950
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6800 3200 6800 2900
