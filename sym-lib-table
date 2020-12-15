@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name trim_relay-rescue)(type Legacy)(uri ${KIPRJMOD}/trim_relay-rescue.lib)(options "")(descr ""))
+  (lib (name CustomComponents)(type Legacy)(uri ${KIPRJMOD}/../libraries/CustomComponents.lib)(options "")(descr ""))
+)
